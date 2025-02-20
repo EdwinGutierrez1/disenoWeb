@@ -83,3 +83,11 @@ h2{
 }
 /* Estilos caja de notas */
 
+.ContenedorNotas{
+    text-align: center;
+}
+
+.TablaNotas{
+    margin: auto;
+    border: 1px black solid;
+}
