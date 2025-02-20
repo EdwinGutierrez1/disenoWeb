@@ -1,5 +1,7 @@
 body{
     background-image: url(imagenes/ImagenColegio2.jpg);
+    opacity:90%;
+    font-family: "Kantumruy Pro";
 }
 
 a{
@@ -10,7 +12,7 @@ a{
 /* Estilos HEADER */
 
 .logo{
-    width: 5rem;
+    width: 6rem;
     height: 5rem;
     margin-left: 50px;
 }
@@ -19,38 +21,43 @@ header{
     background-color: beige;
     width: 75%;
     margin: auto;
+    margin-top:20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius:10px;
+    margin-bottom: 50px;
+    border: 3px rgb(203, 202, 202) solid;
 }
 
 .navbar ul{
-    float: right;
     margin-right: 50px;
 }
 
 .navbar ul li{
     display: inline-block;
-    line-height: 20px;
     margin-left: 10px;
     font-size: 1.3rem;
+}
+
+.navbar ul li a{
+    font-size:30px;
+    padding: 10px;
+    margin: 10px;
 }
 
 /* Estilos Informacion del estudiante */
 
 h1{
-    background-color: beige;
-    font-family: Raleway;
     justify-content: center;
     font-size: 3rem;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
 }
 
 
 h2{
     text-align: center;
-    font-family: Raleway;
     color: black;
     font-size: 3rem;
 }
@@ -60,6 +67,8 @@ h2{
     width: 75%;
     margin: auto;
     padding-bottom: 2rem;
+    border-radius:10px;
+    border: 3px #CBCBCB solid;
 }
 
 .ContenedorInfoEstudiante{
@@ -69,17 +78,24 @@ h2{
 }
 
 .FotoEstudiante{
-    margin-left: 3rem;
+    margin: 30px 25px 10px 10rem;
+}
+
+.FotoEstudianteImg{
+    width: 15rem;
+    opacity:100%;
+    padding-bottom: 10px;
 }
 
 .CajaInfoEstudiante{
-    font-size: 1.5rem;
-    margin: 1rem 9rem 0 0;
+    font-size: 2.1rem;
+    margin: 2rem 8rem 0 9rem;
 }
 
 .bordeCaja{
-    border: 1px black solid;
-    margin: 5rem;
+    border: 2px #9E9E9E  solid;
+    margin: 4rem 10.4rem;
+    border-radius: 15px;
 }
 /* Estilos caja de notas */
 
@@ -89,5 +105,51 @@ h2{
 
 .TablaNotas{
     margin: auto;
-    border: 1px black solid;
+    width: 80%;
+    padding: 20px;
+    font-size: 2rem;
+    
 }
+
+.TablaNotas tr{
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TablaNotas tr th{
+    border: 1px black solid;
+    width: calc(100%/2);
+    background-color: #1c2256;
+    opacity: 100%;
+    color: white;
+    padding:5px;
+}
+
+.TablaNotas tr td{
+    width: calc(100%/2);
+    border: 1px black solid;
+    padding:10px;
+}
+
+
+
+/*Clases relacionadas con el color de las notas, en función de si el Estudiante aprobó o no*/
+
+.Aprobado {
+    color: #318941;
+    font-weight: bold;
+}
+
+.Reprobado{
+    color: #A72012;
+    font-weight: 2px;
+    font-weight: bold;
+}
+
+.Sobresaliente {
+    color: #1C3D8E;
+    font-weight: 2px;
+    font-weight: bold;
+}
+
