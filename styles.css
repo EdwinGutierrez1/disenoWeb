@@ -1,77 +1,77 @@
-body{
+body {
     background-image: url(imagenes/ImagenColegio.jpg);
     font-family: "Kantumruy Pro";
 
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
 
 /* Estilos HEADER */
 
-.logo{
+.logo {
     width: 6rem;
     height: 5rem;
     margin-left: 50px;
 }
 
-header{
+header {
     background-color: beige;
     width: 75%;
     margin: auto;
-    margin-top:20px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius:10px;
+    border-radius: 10px;
     margin-bottom: 30px;
     border: 3px rgb(203, 202, 202) solid;
 }
 
-.ImagenYLogo{
+.ImagenYLogo {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     font-size: 1.3rem;
 }
 
-.ImagenYLogo > p{
-    margin-left:10px;
-    font-size:25px;
+.ImagenYLogo>p {
+    margin-left: 10px;
+    font-size: 25px;
     font-style: italic;
     color: #1c2256;
     font-weight: bold;
 }
 
-.ImagenYLogo > img{
+.ImagenYLogo>img {
     width: 80px;
     height: 80px;
     padding: 10px 0;
 }
 
-.navbar ul{
+.navbar ul {
     margin-right: 50px;
 }
 
-.navbar ul li{
+.navbar ul li {
     display: inline-block;
     margin-left: 10px;
     font-size: 1.3rem;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     font-weight: 400;
     color: #1c2256;
-    font-size:30px;
+    font-size: 30px;
     padding: 10px;
     margin: 10px;
 }
 
 /* Estilos Informacion del estudiante */
 
-h1{
+h1 {
     justify-content: center;
     font-size: 3rem;
     text-align: center;
@@ -80,7 +80,7 @@ h1{
 }
 
 
-h2{
+h2 {
     text-align: center;
     color: black;
     font-size: 2.5rem;
@@ -88,39 +88,38 @@ h2{
 
 
 
-.CajaPrincipal{
+.CajaPrincipal {
     background-color: white;
     width: 75%;
     margin: auto;
-    padding-bottom: 2rem;
-    border-radius:10px;
-    border: 3px #CBCBCB solid;  
+    border-radius: 10px;
+    border: 3px #CBCBCB solid;
 }
 
 
-.ContenedorInfoEstudiante{
+.ContenedorInfoEstudiante {
     display: flex;
     justify-content: space-between;
     border-top: 1px black solid;
 }
 
-.FotoEstudianteImg{
-    padding-left:4.5rem;
+.FotoEstudianteImg {
+    padding-left: 4.5rem;
     padding-top: 1.5rem;
     width: 16rem;
-    opacity:100%;
+    opacity: 100%;
     padding-bottom: 10px;
-}   
+}
 
-.CajaInfoEstudiante{
-    text-align:left;
+.CajaInfoEstudiante {
+    text-align: left;
     padding: 10px 100px 10px 50px;
     font-size: 2rem;
 }
 
-.bordeCaja{
-    width:65%;
-    border: 2px #9E9E9E  solid;
+.bordeCaja {
+    width: 65%;
+    border: 2px #9E9E9E solid;
     margin: auto;
     margin-top: 4.5rem;
     margin-bottom: 4.5rem;
@@ -128,55 +127,55 @@ h2{
 }
 
 
-.bordeCaja > h2{
-    background-color:#A72012;
-    padding:20px;
-    margin:0;
-    font-weight:500;
-    color:white;
+.bordeCaja>h2 {
+    background-color: #A72012;
+    padding: 20px;
+    margin: 0;
+    font-weight: 500;
+    color: white;
 
 }
 
 /* Estilos caja de notas */
 
-.ContenedorNotas{
+.ContenedorNotas {
     text-align: center;
-    margin-bottom:10rem;
+    margin-bottom: 10rem;
 }
 
-.TablaNotas{
+.TablaNotas {
     margin: auto;
     width: 80%;
     padding: 20px;
     font-size: 2rem;
-    
+
 }
 
-.TablaNotas tr{
+.TablaNotas tr {
     border: 1px black solid;
     display: flex;
     justify-content: space-between;
 }
 
-.TablaNotas tr th{
+.TablaNotas tr th {
     border: 1px black solid;
     width: calc(100%/2);
     background-color: #1c2256;
     opacity: 100%;
     color: white;
-    padding:5px;
+    padding: 5px;
 }
 
-.TablaNotas tr td{
+.TablaNotas tr td {
     width: calc(100%/2);
     border: 1px black solid;
-    padding:10px;
+    padding: 10px;
 }
 
-.InfoTabla{
+.InfoTabla {
     background-color: #A72012;
-    color:white;
-    font-weight:500;
+    color: white;
+    font-weight: 500;
 }
 
 
@@ -188,7 +187,7 @@ h2{
     font-weight: bold;
 }
 
-.Reprobado{
+.Reprobado {
     color: #A72012;
     font-weight: 2px;
     font-weight: bold;
@@ -200,3 +199,61 @@ h2{
     font-weight: bold;
 }
 
+/* Estilos del footer */
+
+.Footer {
+    display: flex;
+    border: 1px black solid;
+    justify-content: space-between;
+    background-color: #1c2256;
+    padding: 15px;
+    margin: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.Second {
+    background-color: white;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-left: 12rem;
+    border-radius: 30px;
+}
+
+.InfoColegio {
+    color: white;
+    font-size: 20px;
+    line-height: 7px;
+    margin: 0 auto;
+    margin-right: 12rem;
+    justify-content: center;
+}
+
+.SecondFooter {
+    background-color: #A72012;
+    color: white;
+    padding-top: 1px;
+    font-size: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.SecondFooter ul li {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    justify-content: center;
+    align-self: center;
+}
+
+.SecondFooter ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.SecondFooter p {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
